@@ -4,10 +4,10 @@ var fs = require('fs');
 
 // don't forget to use your own keys!
 var options = {
-    // key: fs.readFileSync('fake-keys/privatekey.pem'),
-    // cert: fs.readFileSync('fake-keys/certificate.pem')
-    key: fs.readFileSync('/etc/letsencrypt/live/webrtcweb.com/privkey.pem'),
-    cert: fs.readFileSync('/etc/letsencrypt/live/webrtcweb.com/fullchain.pem')
+    key: fs.readFileSync('fake-keys/privatekey.pem'),
+    cert: fs.readFileSync('fake-keys/certificate.pem')
+    //key: fs.readFileSync('/etc/letsencrypt/live/webrtcweb.com/privkey.pem'),
+    //cert: fs.readFileSync('/etc/letsencrypt/live/webrtcweb.com/fullchain.pem')
 };
 
 // HTTPs server
